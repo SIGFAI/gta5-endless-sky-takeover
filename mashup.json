@@ -1,0 +1,153 @@
+{
+  "id": "sigf/gta5-endless-sky-takeover",
+  "version": "1.0.0",
+  "name": "Endless Sky Takeover",
+  "tagline": "Bring Endless Sky into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "gta5",
+      "role": "host",
+      "engine": "GTA V Legacy + FiveM (local FXServer, CfxLua 5.4 resource, NUI HTML overlay, streamed .ydr props)",
+      "apps": {
+        "steam": "271590"
+      }
+    },
+    {
+      "game": "endlesssky",
+      "role": "guest",
+      "label": "Endless Sky"
+    }
+  ],
+  "requires": [
+    {
+      "id": "fivem"
+    }
+  ],
+  "install": [
+    {
+      "game": "gta5",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "gta5-endless-sky-takeover.zip",
+          "dst": "{fivem}/resources/sigf_endless_sky_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "client.lua",
+              "sha256": "f871cb33f0c4bcf87001d84f070846f9ea744fc41c126c6f2ecdfca38dd4ffb7"
+            },
+            {
+              "path": "demo.lua",
+              "sha256": "e048d3de0aa544261acf54a05c55391243313cd7487157afe0b700dd265153cf"
+            },
+            {
+              "path": "fxmanifest.lua",
+              "sha256": "0f2806c226785b503ee0f1fab124c55fe781ad1d68c8656a1c7cfdaa9d401479"
+            },
+            {
+              "path": "lib/cl_bricks.lua",
+              "sha256": "2b8b55eb059aae8d51b7d9fe8a6264174c9156e6ebe9ba998165086087136bd4"
+            },
+            {
+              "path": "lib/cl_demo.lua",
+              "sha256": "00e02ecdcdf629411cfdbbe780e993eec6cd72b663b9de7052c34c175fc94d4d"
+            },
+            {
+              "path": "lib/cl_ready.lua",
+              "sha256": "ef9bd4698240643ffefc8374dc394ca25c988d2851c6ea613f43be31c850b3cb"
+            },
+            {
+              "path": "lib/nui/hud.css",
+              "sha256": "8dddfe6c6a3df9be201f6ff899bef6543900ce732f08fd84851fc7a99600199a"
+            },
+            {
+              "path": "lib/nui/hud.html",
+              "sha256": "254265d8e2cd5b5fb1a26a7f3ee1becc7c5ea71223c8fe75d0976c257fc141eb"
+            },
+            {
+              "path": "lib/sh_bricks.lua",
+              "sha256": "c84f8853c8a45a51f589513c31f1d567d40b931a54e744419077a5ea72a43023"
+            },
+            {
+              "path": "lib/sv_bricks.lua",
+              "sha256": "5fc3c94d19b751f0dc08dfb6c8de49bfd2005ebe91f557fcd1dce0f5fb3eab34"
+            },
+            {
+              "path": "sfx/credits.ogg",
+              "sha256": "6241bd259e7235bdfed41588163e4d085947580f79cbf41630913a90516b6a20"
+            },
+            {
+              "path": "sfx/laser.ogg",
+              "sha256": "3b2b05fe78fc72d1382e7de29d284f0a53009a5424ece838d0154b28c3bd023a"
+            },
+            {
+              "path": "sfx/thruster.ogg",
+              "sha256": "e27c3e658d00c9ed781ed7abc58bddbabbb4d23a274691656ead470879611fab"
+            },
+            {
+              "path": "stream/sigf_freighter.ydr",
+              "sha256": "9450de32e902e68dc380d89e2b4565b05a5179db9fb5ea90bffe9378a0d61c7e"
+            },
+            {
+              "path": "stream/sigf_freighter.ytyp",
+              "sha256": "72a8df1d2e2799330b7582879f8522704ac87a2eddafe5c2b5f1a3dcd9ba8932"
+            },
+            {
+              "path": "stream/sigf_raider.ydr",
+              "sha256": "c3388bf9eea86d0a13c25d3e414ad29b702e6a2aa4f828e777a6a36e1bdf9f26"
+            },
+            {
+              "path": "stream/sigf_raider.ytyp",
+              "sha256": "36d8313f6ee4fa16bfbe374f791d83d777280c9ed686d4d8916af86d6a033def"
+            },
+            {
+              "path": "stream/sigf_shuttle.ydr",
+              "sha256": "e9cc9c7cbf9bd86813942d7be9020083a47e5cb4ce44069b8c9ca2619c307195"
+            },
+            {
+              "path": "stream/sigf_shuttle.ytyp",
+              "sha256": "dc0fbf036220c581d666e286d8fab326ba0461846f6bd22d475373bb1989d40b"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gta5-endless-sky-takeover/releases/download/v1.0.0/gta5-endless-sky-takeover.zip",
+          "sha256": "a015868b01c28a7187bc45aeb01783d31607152aaef87d14003ee5d223fe8212",
+          "size": 4137869
+        }
+      ],
+      "runtime": "fivem"
+    }
+  ],
+  "launch": [
+    {
+      "game": "gta5",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "gta5-endless-sky-takeover.zip",
+      "url": "https://github.com/SIGFAI/gta5-endless-sky-takeover/releases/download/v1.0.0/gta5-endless-sky-takeover.zip",
+      "sha256": "a015868b01c28a7187bc45aeb01783d31607152aaef87d14003ee5d223fe8212",
+      "size": 4137869
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/gta5-endless-sky-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-10-5239e6b0.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "gta5",
+    "status": "draft"
+  },
+  "built_at": "2026-10-10T20:37:36.073Z"
+}
