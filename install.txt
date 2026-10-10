@@ -1,0 +1,1 @@
+Put the folder in your FiveM server's resources folder as sigf_mod, add 'ensure sigf_mod' to server.cfg, then join the server. Everything runs by itself near the airfield, no extra files needed.

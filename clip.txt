@@ -1,0 +1,7 @@
+Moments the clip must show:
+[x] 1. A spaceship descends with thruster flames and lands on the Sandy Shores runway (spaceport banner).
+[x] 2. Alien pirates in front of the player: shield bubble flashes under bullets (blue bolts), they die, credits pop up.
+[x] 3. A pirate raider warps in, the player shoots it down, it crashes in an explosion (+1000 credits).
+[x] 4. Freighter flies over, escort shuttle strafes enemies with lasers, radar and credit HUD on screen.
+
+Notes: checked on preview screenshots (shuttle landing with fire column, shield bubbles + credits, raider crash with +1000, freighter and escort lasers). Raider hull is dark red-black art: weakest visual when backlit.
